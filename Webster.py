@@ -65,7 +65,7 @@ word5 = ""
 word6 = ""
 
 for t in range(permutation_len + 1):
-	perm = list(permutations(terms, t))
+	perm = permutations(terms, t)
 	for i in perm:
 		if len(array2String(i)) < max_len and len(array2String(i)) > min_len:
 			word = array2String(i)
