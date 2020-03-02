@@ -4,6 +4,9 @@ import os.path
 from os import path
 from itertools import permutations
 
+l = "l"
+i = "i"
+
 def array2String(array):
 	string = "" 
 	return (string.join(array)) 
@@ -13,7 +16,7 @@ def reverse(string):
 	for i in string: 
 		str = i + str
 	return str
-	
+
 def isFile(path):
 	if os.path.isdir(path):
 		return False
@@ -47,6 +50,7 @@ reverseWord = True;
 caps=True
 fcaps=True
 ecaps=True
+leet = True
 
 min_len = input("Minimum password length: ")
 max_len = input("Maximum password length: ")
@@ -67,10 +71,10 @@ word6 = ""
 for t in range(permutation_len + 1):
 	perm = permutations(terms, t)
 	for i in perm:
-		if len(array2String(i)) < max_len and len(array2String(i)) > min_len:
+		if len(array2String(i)) <= max_len and len(array2String(i)) >= min_len:
 			word = array2String(i)
 			#print word
-
+				
 			if reverseWord == True:
 				word1 = reverse(word)
 
