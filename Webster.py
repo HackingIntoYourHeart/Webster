@@ -4,6 +4,28 @@ import os.path
 from os import path
 from itertools import permutations
 
+print """
+      Welcome to Webster!
+
+ Remember to use the victim's:
+   Full name
+   Family/pets
+   Favorite characters
+   Favorite quips/phrases
+   Favorite sports/activities
+   Favorite food
+   Birthdays
+   Area codes
+   Zip codes
+   favorite numbers
+   Locations
+   Zodiac signs
+   Favorite movies/shows
+   Favorite celebrities
+   Misc.
+   
+   """
+
 def array2String(array):
 	string = "" 
 	return (string.join(array)) 
@@ -47,6 +69,7 @@ reverseWord = True;
 caps=True
 fcaps=True
 ecaps=True
+leet = True
 
 min_len = input("Minimum password length: ")
 max_len = input("Maximum password length: ")
@@ -98,25 +121,25 @@ for t in range(permutation_len + 1):
 
 			if word != "":
 				output.writelines(word + endl)
-				print(word)
+				#print(word)
 			if word1 != "":
 				output.writelines(word1 + endl)
-				print(word1)
+				#print(word1)
 			if word2 != "":
 				output.writelines(word2 + endl)
-				print(word2)
+				#print(word2)
 			if word3 != "":
 				output.writelines(word3 + endl)
-				print(word3)
+				#print(word3)
 			if word4 != "":
 				output.writelines(word4 + endl)
-				print(word4)
+				#print(word4)
 			if word5 != "":
 				output.writelines(word5 + endl)
-				print(word5)
+				#print(word5)
 			if word6 != "":
 				output.writelines(word6 + endl)
-				print(word6)
+				#print(word6)
 
 output.close()
 	
