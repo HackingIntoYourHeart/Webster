@@ -4,9 +4,6 @@ import os.path
 from os import path
 from itertools import permutations
 
-l = "l"
-i = "i"
-
 def array2String(array):
 	string = "" 
 	return (string.join(array)) 
