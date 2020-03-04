@@ -47,7 +47,6 @@ reverseWord = True;
 caps=True
 fcaps=True
 ecaps=True
-leet = True
 
 min_len = input("Minimum password length: ")
 max_len = input("Maximum password length: ")
