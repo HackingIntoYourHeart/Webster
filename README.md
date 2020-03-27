@@ -18,6 +18,6 @@ repository. PLEASE use responsibly.*
 Run:
 
 ```
-python webster.py <Path to terms file>
+python Webster.py <Path to terms file>
 ```
 or, you may simply run Webster and use the command line interface to manually enter your terms.
